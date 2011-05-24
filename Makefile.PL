@@ -18,6 +18,7 @@ WriteMakefile(
         'Moose'                => 0,
         'WWW::Mechanize'       => 0,
         'LWP::Protocol::https' => 0,
+        'DateTime' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES    => 'PagSeguro-Status-*' },
